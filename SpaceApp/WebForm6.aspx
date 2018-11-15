@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="WebForm6.aspx.cs" MasterPageFile="~/Site.Master" Inherits="SpaceApp.WebForm6" %>
+﻿<%@ Page Title="Saturn" Language="C#" AutoEventWireup="true" CodeBehind="WebForm6.aspx.cs" MasterPageFile="~/Site.Master" Inherits="SpaceApp.WebForm6" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
