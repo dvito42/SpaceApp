@@ -2,15 +2,18 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
-        <h1><%: Title %> SpaceApp:</h1>
-        <h2>Space App is a slide show of NASA images for the eight planets in our Solar System and Pluto.</h2>
+        <h1><%: Title %> Vito Space Flight:</h1>
+        <h2>Vito Space Flight is a slide show of NASA images for the eight planets in our Solar System and Pluto.</h2>
     </hgroup>
 
     <article>
         
-        <p> Home is Earth. Earth does not have a slide show.  </p>
+        <p> This is a website I created a couple of years ago while I was studying Visual Studio ASP.Net C#. 
+            It's a slide show with pictures of the main planets in our solar system copied from Nasa's image website. 
+            I put on a timer on each page to make it cycle through 5 pictures and then stop. 
+            This was not intended to be a live website. It's just something I created for my portfolio.</p>
         <p> This site is not endorsed by NASA.</p>
-        <p>This is a sample web site for my portfolio. </p>
+        
     </article>
 
     <aside>
