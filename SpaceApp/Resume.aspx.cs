@@ -5,10 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-
 namespace SpaceApp
 {
-    public partial class Mercury : System.Web.UI.Page
+    public partial class Resume : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

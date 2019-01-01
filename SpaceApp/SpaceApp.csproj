@@ -127,6 +127,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Jupiter\PIA01481_full.png" />
+    <Content Include="Images\Jupiter\PIA01481_small.png" />
+    <Content Include="Images\Jupiter\PIA02860_small.png" />
+    <Content Include="Images\Jupiter\PIA02972_orig.png" />
+    <Content Include="Images\Jupiter\PIA02972_small.png" />
+    <Content Include="Images\Mars\PIA01120_small.png" />
+    <Content Include="Images\Mars\PIA04591_small.png" />
+    <Content Include="Images\Mercury\PIA10635_small.png" />
+    <Content Include="Images\Mercury\PIA11360_small.png" />
+    <Content Include="Images\Mercury\PIA12262_small.png" />
+    <Content Include="Images\Mercury\PIA15862_small.png" />
+    <Content Include="Images\Mercury\PIA17622_small.png" />
+    <Content Include="Images\Moon\apollo_16_small.png" />
+    <Content Include="Images\Uranus\PIA01391_small2.png" />
+    <Content Include="Images\Uranus\PIA01391_small2old.png" />
+    <Content Include="Images\Venus\PIA00072_small480.png" />
+    <Content Include="Images\Venus\PIA00109_small480.png" />
+    <Content Include="Images\Venus\PIA00234_small480.png" />
+    <Content Include="Images\Venus\PIA00270_small480.png" />
+    <Content Include="Images\Venus\PIA10124_small480.png" />
+    <Content Include="Resume.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
@@ -210,10 +231,8 @@
     <Content Include="Images\Mars\PIA11132_small.jpg" />
     <Content Include="Images\Mercury\PIA10635_orig.jpg" />
     <Content Include="Images\Mercury\PIA11360_small.jpg" />
-    <Content Include="Images\Mercury\PIA11773_small.jpg" />
     <Content Include="Images\Mercury\PIA12262_small.jpg" />
     <Content Include="Images\Mercury\PIA15862_small.jpg" />
-    <Content Include="Images\Mercury\PIA16549_small.jpg" />
     <Content Include="Images\Mercury\PIA17622_small.jpg" />
     <Content Include="Images\670px-Ap6-68-HC-191.jpg" />
     <Content Include="Images\accent.png" />
@@ -225,7 +244,6 @@
     <Content Include="Images\heroAccent.png" />
     <Content Include="Images\Moon\6900951_small.jpg" />
     <Content Include="Images\Moon\6901249_small.jpg" />
-    <Content Include="Images\Moon\as11-37-5545_small.jpg" />
     <Content Include="Images\Moon\as11-44-6551_small.jpg" />
     <Content Include="Images\Moon\as11-44-6667_small.jpg" />
     <Content Include="Images\Moon\AS12-46-6728_small.jpg" />
@@ -262,23 +280,19 @@
     <Content Include="Images\Uranus\PIA01391_small.jpg" />
     <Content Include="Images\Uranus\PIA02963_small.jpg" />
     <Content Include="Images\Uranus\PIA18182_small.jpg" />
-    <Content Include="Images\Venus\PIA00072_small.jpg" />
-    <Content Include="Images\Venus\PIA00109_small.jpg" />
-    <Content Include="Images\Venus\PIA00234_small.jpg" />
-    <Content Include="Images\Venus\PIA00270_small.jpg" />
-    <Content Include="Images\Venus\PIA01544_orig.jpg" />
-    <Content Include="Images\Venus\PIA10124_small.jpg" />
     <Content Include="packages.config" />
-    <Content Include="WebForm1.aspx" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="Moon.aspx" />
+    <Content Include="Mars.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="WebForm3.aspx" />
-    <Content Include="WebForm4.aspx" />
-    <Content Include="WebForm5.aspx" />
-    <Content Include="WebForm6.aspx" />
-    <Content Include="WebForm7.aspx" />
-    <Content Include="WebForm9.aspx" />
-    <Content Include="WebForm8.aspx" />
+    <Content Include="Mercury.aspx" />
+    <Content Include="Venus.aspx" />
+    <Content Include="Jupiter.aspx" />
+    <Content Include="Saturn.aspx" />
+    <Content Include="Uranus.aspx" />
+    <Content Include="Pluto.aspx" />
+    <Content Include="Neptune.aspx" />
+    <Content Include="Resume DVito Online.pdf" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -317,6 +331,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Resume.aspx.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resume.aspx.designer.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -394,19 +415,19 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Moon.aspx.cs">
+      <DependentUpon>Moon.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Moon.aspx.designer.cs">
+      <DependentUpon>Moon.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Mars.aspx.cs">
+      <DependentUpon>Mars.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="Mars.aspx.designer.cs">
+      <DependentUpon>Mars.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -415,54 +436,54 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm3.aspx.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Mercury.aspx.cs">
+      <DependentUpon>Mercury.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm3.aspx.designer.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Mercury.aspx.designer.cs">
+      <DependentUpon>Mercury.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm4.aspx.cs">
-      <DependentUpon>WebForm4.aspx</DependentUpon>
+    <Compile Include="Venus.aspx.cs">
+      <DependentUpon>Venus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm4.aspx.designer.cs">
-      <DependentUpon>WebForm4.aspx</DependentUpon>
+    <Compile Include="Venus.aspx.designer.cs">
+      <DependentUpon>Venus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm5.aspx.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="Jupiter.aspx.cs">
+      <DependentUpon>Jupiter.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm5.aspx.designer.cs">
-      <DependentUpon>WebForm5.aspx</DependentUpon>
+    <Compile Include="Jupiter.aspx.designer.cs">
+      <DependentUpon>Jupiter.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm6.aspx.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
+    <Compile Include="Saturn.aspx.cs">
+      <DependentUpon>Saturn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm6.aspx.designer.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
+    <Compile Include="Saturn.aspx.designer.cs">
+      <DependentUpon>Saturn.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm7.aspx.cs">
-      <DependentUpon>WebForm7.aspx</DependentUpon>
+    <Compile Include="Uranus.aspx.cs">
+      <DependentUpon>Uranus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm7.aspx.designer.cs">
-      <DependentUpon>WebForm7.aspx</DependentUpon>
+    <Compile Include="Uranus.aspx.designer.cs">
+      <DependentUpon>Uranus.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm9.aspx.cs">
-      <DependentUpon>WebForm9.aspx</DependentUpon>
+    <Compile Include="Pluto.aspx.cs">
+      <DependentUpon>Pluto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm9.aspx.designer.cs">
-      <DependentUpon>WebForm9.aspx</DependentUpon>
+    <Compile Include="Pluto.aspx.designer.cs">
+      <DependentUpon>Pluto.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm8.aspx.cs">
-      <DependentUpon>WebForm8.aspx</DependentUpon>
+    <Compile Include="Neptune.aspx.cs">
+      <DependentUpon>Neptune.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm8.aspx.designer.cs">
-      <DependentUpon>WebForm8.aspx</DependentUpon>
+    <Compile Include="Neptune.aspx.designer.cs">
+      <DependentUpon>Neptune.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

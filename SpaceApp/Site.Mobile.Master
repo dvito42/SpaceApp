@@ -1,6 +1,18 @@
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="SpaceApp.Site_Mobile" %>
 <%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
-
+<!-- 
+  /**********************************************************************************************
+ * Program Name: SpaceApp
+ * Author: Donna Vito
+ * Date: 11/27/2018
+ * Program Description: SpaceApp (Vito Space Flight) is a slide show of NASA images 
+ *      for the eight planets in our Solar System and Pluto.
+ *
+ * Site.Master: This is the mobil version of the master page for the website. 
+ *   It contains the main html (header, body and footer) to make the website format consistent.
+ *   The content wrappers are coded in the aspx forms that use the site master page.
+ ***********************************************************************************************/
+ -->
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">

@@ -5,17 +5,9 @@
         <h1><%: Title %>.</h1>
         <h2>Vito Space Flight</h2>
     </hgroup>
-<!-- 
-    <address>
-    Donna Vito<br />
-    Jamesville, NY 13078<br />
-    <abbr title="Phone">P:</abbr>
-    315.572.5429
-    </address>
-    <address>
-    <strong>Support:</strong>   <a href="mailto:donnavito42@gmail.com">donnavito42@gmail.com</a><br />
-    </address>
-    -->
+
+<!-- add address, phone number and email -->
+
     <section class="contact">
         <header>
             <h3>Phone:</h3>

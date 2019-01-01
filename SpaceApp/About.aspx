@@ -3,15 +3,14 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
         <h1><%: Title %> Vito Space Flight:</h1>
-        <h2>Vito Space Flight is a slide show of NASA images for the eight planets in our Solar System and Pluto.</h2>
+        <h2>My Portfolio - Slide show of NASA images for the eight planets in our Solar System and Pluto.</h2>
     </hgroup>
 
     <article>
         
-        <p> This is a website I created a couple of years ago while I was studying Visual Studio ASP.Net C#. 
+        <p> Vito Space Flight is not a real company. This is a website I created while I was studying Visual Studio ASP.Net C#. 
             It's a slide show with pictures of the main planets in our solar system copied from Nasa's image website. 
-            I put on a timer on each page to make it cycle through 5 pictures and then stop. 
-            This was not intended to be a live website. It's just something I created for my portfolio.</p>
+            It has on a timer on each page to make it cycle through 5 pictures and then stop. </p>
         <p> This site is not endorsed by NASA.</p>
         
     </article>
@@ -24,9 +23,7 @@
         <ul>
             <li><a runat="server" href="~/">Home</a></li>
             <li><a runat="server" href="~/Contact">Contact</a></li>
-             <li><a runat="server" href="https://images.nasa.gov">images.nasa.gov</a></li>
-           </ul>
-       
-       
+            <li><a runat="server" href="https://images.nasa.gov">images.nasa.gov</a></li>
+        </ul>
     </aside>
 </asp:Content>
