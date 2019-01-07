@@ -1,10 +1,23 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SpaceApp.SiteMaster" %>
+<!-- 
+  /**********************************************************************************************
+ * Program Name: SpaceApp
+ * Author: Donna Vito
+ * Date: 11/27/2018
+ * Program Description: SpaceApp (Vito Space Flight) is a slide show of NASA images 
+ *      for the eight planets in our Solar System and Pluto.
+ *
+ * Site.Master: This is the master page for the website. 
+ *   It contains the main html (header, body and footer) to make the website format consistent.
+ *   The content wrappers are coded in the aspx forms that use the site master page.
+ ***********************************************************************************************/
+ -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Vito Space Flight</title>
     <asp:PlaceHolder runat="server">     
           <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>  
@@ -46,10 +59,15 @@
                 <section id="login">
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
+                            <!-- 
+                            /*********************************************************************************************
+                                I commented out the register and login links since this website is just a slideshow.
+                            /*********************************************************************************************
                             <ul>
                                 <li><a id="registerLink" runat="server" href="~/Account/Register">Register</a></li>
                                 <li><a id="loginLink" runat="server" href="~/Account/Login">Log in</a></li>
                             </ul>
+                                -->
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <p>
@@ -60,24 +78,29 @@
                         </LoggedInTemplate>
                     </asp:LoginView>
                 </section>
+                <!-- Navigation bar: Each planet has its own page. Home is the Earth's page.
+                -->
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a href="WebForm1.aspx">Moon</a></li> 
-                        <li><a href="WebForm3.aspx">Mercury</a></li>
-                        <li><a href="WebForm4.aspx">Venus</a></li>
-                        <li><a href="WebForm2.aspx">Mars</a></li>
-                        <li><a href="WebForm5.aspx">Jupiter</a></li>
-                        <li><a href="WebForm6.aspx">Saturn</a></li>
-                        <li><a href="WebForm7.aspx">Uranus</a></li>
-                        <li><a href="WebForm8.aspx">Neptune</a></li>
-                        <li><a href="WebForm9.aspx">Pluto</a></li>
+                        <li><a href="Moon.aspx">Moon</a></li> 
+                        <li><a href="Mercury.aspx">Mercury</a></li>
+                        <li><a href="Venus.aspx">Venus</a></li>
+                        <li><a href="Mars.aspx">Mars</a></li>
+                        <li><a href="Jupiter.aspx">Jupiter</a></li>
+                        <li><a href="Saturn.aspx">Saturn</a></li>
+                        <li><a href="Uranus.aspx">Uranus</a></li>
+                        <li><a href="Neptune.aspx">Neptune</a></li>
+                        <li><a href="Pluto.aspx">Pluto</a></li>
+                        <li><a runat="server" href="~/Resume">Resume</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        
                     </ul>
                 </nav>
             </div>
         </div>
+         <a class="btn download" href="Resume.pdf" download>Download PDF</a>
     </header>
     <div id="body">
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
@@ -85,11 +108,14 @@
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
         </section>
     </div>
+        <!-- Footer contains copyright information and disclaimer-->
     <footer>
         <div class="content-wrapper">
             <div class="float-left">
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Vito Space Flight</p>     
+                <p>This site is not endorsed by NASA.</p>
             </div>
+           
         </div>
     </footer>
     </form>

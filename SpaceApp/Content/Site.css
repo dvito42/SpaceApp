@@ -14,6 +14,13 @@ body {
     padding: 0;
 }
 
+.btn {
+    text-decoration: none;
+    color: purple;
+    background: lightblue;
+    padding: 10px;
+    display: inline-block;
+}
 a {
     color: #333;
     outline: none;
@@ -31,7 +38,26 @@ a {
         background-color: #c7d1d6;
     }
 
-header, footer, hgroup,
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+
+header{
+    position: fixed;
+    display: block;
+    background: white;
+    width: 100%;
+    text-align: center;
+    top: 0;
+}
+    
+footer, hgroup,
 nav, section {
     display: block;
 }
@@ -40,6 +66,29 @@ mark {
     background-color: #a6dbed;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/* Added styles for the resume page*/
+.text-center {
+    text-align: center;
+}
+
+.div-col-3 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.div-col-4 {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+
+.download {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .float-left {
@@ -97,9 +146,15 @@ h5, h6 {
     max-width: 960px;
 }
 
+/* add class of disclaimer to set color to #212121
+---------------------------------------------------------*/
+.disclaimer {
+    color: #212121;
+}
 #body {
     background-color: #efeeef;
     clear: both;
+    padding-top: 60px;
     padding-bottom: 35px;
 }
 
@@ -121,22 +176,24 @@ footer {
     clear: both;
     background-color: #e2e2e2;
     font-size: .8em;
-    height: 100px;
+    height: 50px;
 }
 
 
-/* site title
+/* site title 
+    change font-size from 1.5em to 2em
 ----------------------------------------------------------*/
 .site-title {
-    color: #c8c8c8;
+    color: blue;
     font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0;
 }
 
+/* change color from #c8c8c8 to #525252*/
 .site-title a, .site-title a:hover, .site-title a:active {
     background: none;
-    color: #c8c8c8;
+    color: #525252;
     outline: none;
     text-decoration: none;
 }
@@ -148,6 +205,10 @@ img {
     width: 50%;
 }
 
+/* Add class to put round corners on images*/
+.round-corners {
+    border-radius: 15%;
+}
 
 #ImageMain {
     display: block;
@@ -156,12 +217,11 @@ img {
     width: 50%;
 }
 
-/* class planet
-    ----------------------------------------------------------*/
-
-.planet {
-    text-align: center;
+#Image6, #Image7, #Image8, #Image9 {
+    width: 100%;
+    height: auto;
 }
+
 /* login
 ----------------------------------------------------------*/
 #login {
@@ -335,6 +395,8 @@ article {
 aside {
     float: right;
     width: 25%;
+    display: inline-block;
+    padding: 150px 0;
 }
 
     aside ul {
@@ -347,8 +409,21 @@ aside {
             padding: 2px 0 2px 20px;
         }
 
+/* Center aside section on default page*/
+.default-center {
+    float: right;
+    width: 25%;
+    display: inline-block;
+    padding: 30px 0;
+}
 .label {
     font-weight: 700;
+}
+
+/* center aside labels vertically for moon through pluto*/
+
+#LabelMoon, #LabelMercury {
+    padding: 100px 0;
 }
 
 /* login page */
