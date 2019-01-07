@@ -9,31 +9,19 @@
 <!-- add address, phone number and email -->
 
     <section class="contact">
-        <header>
-            <h3>Phone:</h3>
-        </header>
         <p>
-            <span class="label">Main:</span>
+            <span class="label">Phone:</span>
             <span>315.572.5429</span>
         </p>
-    </section>
-
-    <section class="contact">
-        <header>
-            <h3>Email:</h3>
-        </header>
+       
         <p>
-            <span class="label">General:</span>
+            <span class="label">Email:</span>
             <span><a href="mailto:donnavito42@gmail.com">donnavito42@gmail.com</a></span>
         </p>
-    </section>
-
-    <section class="contact">
-        <header>
-            <h3>Address:</h3>
-        </header>
+  
         <p>
-            Jamesville, NY 13078
+            <span class="label">Address:</span>
+            <span>Jamesville, NY 13078</span>
         </p>
     </section>
 </asp:Content>
