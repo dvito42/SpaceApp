@@ -35,14 +35,19 @@
                     <br />
                     <asp:Label ID="Label1" runat="server" Text="1"></asp:Label>
                     <br />
+                    
                     <p>
                         <a href= "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html">Link to NASA Moon Fact Sheet</a>
                     </p>
                     </aside>
                 <!-- Set the first image of the slide show -->
-                <div class="text-center">   
-                    <asp:Image ID="Image1" class="round-corners" runat="server" ImageUrl="Images/Moon/as11-44-6667_small.jpg" />
-                </div> 
+                <!-- Add previous and next buttons to allow user to choose which picture to view-->
+                <div>   
+                    <asp:Button ID="MoonPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                    <asp:Button ID="MoonNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+                    <asp:Image ID="Image1" class="round-corners alignCenter" runat="server" ImageUrl="Images/Moon/as11-44-6667_small.jpg" />
+                    
+                </div>
                 <!-- Timer will run when the document loads. The picture will switch every 5 seconds until the 5th picture is set. -->     
                 <asp:Timer ID="Timer1" runat="server" Interval="5000" OnTick="Timer1_Tick"></asp:Timer>
             </ContentTemplate>

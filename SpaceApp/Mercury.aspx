@@ -33,7 +33,10 @@
                         <br /><br />
                     </aside>
                     <!-- Set the first image of the slide show -->
+                    <!-- Add previous and next buttons to allow user to choose which picture to view--> 
                     <div class="text-center">
+                        <asp:Button ID="MercuryPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                        <asp:Button ID="MercuryNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
                         <asp:Image ID="Image3" class="round-corners" runat="server" ImageUrl="Images/Mercury/PIA12262_small.png"  /><br />
                     </div>
                     <!--

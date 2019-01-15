@@ -292,6 +292,7 @@
     <Content Include="Pluto.aspx" />
     <Content Include="Neptune.aspx" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Resume Old.pdf" />
     <Content Include="Resume.pdf" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />

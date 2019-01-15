@@ -9,7 +9,7 @@
         <address>
             Jamesville, NY 13078 &ast;
             (315) 572-5429 &ast;
-            <a href="mailto:donnavito42@gmail.com">donnavito42@gmail.com</a> &ast;
+            <a href="mailto:dvito@dvito428.com">dvito@dvito428.com</a> &ast;
             <a href="https://www.linkedin.com/in/donnavito/">https://www.linkedin.com/in/donnavito/</a> 
         </address>
         <!-- Add download resume button

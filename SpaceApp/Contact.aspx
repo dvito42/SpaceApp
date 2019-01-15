@@ -16,7 +16,7 @@
        
         <p>
             <span class="label">Email:</span>
-            <span><a href="mailto:donnavito42@gmail.com">donnavito42@gmail.com</a></span>
+            <span><a href="mailto:dvito@dvito428.com">dvito@dvito428.com</a></span>
         </p>
   
         <p>

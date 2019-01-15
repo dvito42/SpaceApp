@@ -1,0 +1,106 @@
+SpaceApp - changes to add previous and next buttons
+
+<!-- Add previous and next buttons to allow user to choose which picture to view--> 
+<asp:Button ID="MercuryPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+<asp:Button ID="MercuryNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+
+// Manually register the event-handling method for
+// the Click event of the Button control.
+MercuryPrevButton.Click += new EventHandler(this.PrevBtn_Click);
+MercuryNextButton.Click += new EventHandler(this.NextBtn_Click);
+
+            if (caseSwitch < 5)
+            {
+                caseSwitch = caseSwitch + 1;
+                textSwitch = caseSwitch.ToString();
+                Label3.Text = textSwitch;
+            }
+
+ setPicture(caseSwitch);
+
+ //Make function to switch pictures and description based on Label3.Text value (caseSwitch)
+protected void setPicture(int parmSwitch)
+{
+	switch (parmSwitch)
+	{
+// Set the next picture and description
+// Set the next picture and set n to the next number
+	case 1:
+		Image1.ImageUrl = "Images/Mercury/PIA12262_small.png";
+		LabelMercury.Text = "Hello, Mercury! Spacecraft Messenger took this picture approaching Mercury.";
+		break;
+	case 2:
+		Image3.ImageUrl = "Images/Mercury/PIA17622_small.png";
+                LabelMercury.Text = "Crescent Mercury: This image was acquired as part of the MDIS's (Mercury Dual Imaging System) limb imaging campaign.";
+                break;
+	case 3:
+		Image3.ImageUrl = "Images/Mercury/PIA11360_small.png";
+		LabelMercury.Text = "Mercury Through Time: This image shows a northern portion of Mercury’s surface, looking at the terminator.";
+		break;
+	case 4:
+		Image3.ImageUrl = "Images/Mercury/PIA10635_small.png";
+		LabelMercury.Text = "“The Spider” – Radial Troughs within Caloris on Mercury.";
+		break;
+	case 5:
+		Image3.ImageUrl = "Images/Mercury/PIA15862_small.png";
+		LabelMercury.Text = "Mickey Mouse Spotted on Mercury! This scene is to the northwest of the recently named crater Magritte, in Mercury's south.";
+		break;
+
+	default:
+		break;
+            }
+        }
+    }
+}
+
+
+        //*******************************************************************************************************
+        // When the "Previous" button is clicked, change the image and description.
+        //*******************************************************************************************************
+        protected void PrevBtn_Click(Object sender,
+                          EventArgs e)
+        {
+  
+            string textPSwitch = Label3.Text;
+            int casePSwitch = Convert.ToInt32(textPSwitch);
+         
+            //Decrement case switch until it reaches 1 then set it back to 5
+            //Update Label3.Text with the new value
+            if (casePSwitch < 2)
+            {
+                casePSwitch = 5;
+            }
+            else
+            {
+                casePSwitch--;
+            }
+
+            setPicture(casePSwitch);
+
+            Label3.Text = casePSwitch.ToString();
+        }
+
+        //************************************************************************************************************
+        // When the Next button is clicked, change the image and description.
+        //************************************************************************************************************
+        protected void NextBtn_Click(Object sender,
+                          EventArgs e)
+        {
+            string textNSwitch = Label3.Text;
+            int caseNSwitch = Convert.ToInt32(textNSwitch);
+            if (caseNSwitch < 5)
+            {
+                caseNSwitch++;
+            }
+            else
+            {
+                caseNSwitch = 1;
+            }
+            setPicture(caseNSwitch);
+
+            //Increment case switch until it reaches 5 then set it back to 1
+            //Update Label3.Text with the new value
+            
+            Label3.Text = caseNSwitch.ToString();
+
+        }
