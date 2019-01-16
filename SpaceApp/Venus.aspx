@@ -35,6 +35,12 @@
                     </aside>
 
                     <div class="text-center">
+                        
+                        <!-- Add previous and next buttons to allow user to choose which picture to view-->
+                        <asp:Button ID="VenusPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                        <asp:Button ID="VenusNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+
+                        <!-- Set the first image of the slide show -->
                         <asp:Image ID="Image4" class="round-corners" runat="server" 
                             ImageUrl="Images/Venus/PIA10124_small480.png" /><br />
                     </div>

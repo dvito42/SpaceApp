@@ -35,21 +35,15 @@
 
                     <!-- Set the first image of the slide show -->
                     <div class="text-center">
+                        <!-- Add previous and next buttons to allow user to choose which picture to view-->
+                        <asp:Button ID="NeptunePrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                        <asp:Button ID="NeptuneNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+                        <!-- Set the first image of the slide show -->
                         <asp:Image ID="Image8N" class="round-corners" runat="server" ImageUrl="Images/Neptune/PIA00340_small.jpg" />
-                        <!-- 
-                        <asp:ImageButton ID="Image8" runat="server" 
-                            ImageUrl="Images/Neptune/PIA00340_small.jpg" />
-                        -->
                         <br />
                    
                     </div>
-                    <!--
-                    <img src="Images/Neptune/PIA00340_small.jpg" />
-                    <img src="Images/Neptune/PIA01492_small.jpg" />
-                    <img src="Images/Neptune/PIA01142_small.jpg" />
-                    <img src="Images/Neptune/PIA00058_orig.jpg" />
-                    <img src="Images/Neptune/PIA00051_small.jpg" />
-                    -->
+
                     <asp:Timer ID="Timer8" runat="server" Interval="5000" OnTick="Timer8_Tick"></asp:Timer>
                 </ContentTemplate>
             </asp:UpdatePanel>

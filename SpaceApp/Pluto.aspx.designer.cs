@@ -49,6 +49,24 @@ namespace SpaceApp {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
+        /// PlutoPrevButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button PlutoPrevButton;
+        
+        /// <summary>
+        /// PlutoNextButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button PlutoNextButton;
+        
+        /// <summary>
         /// Image9P control.
         /// </summary>
         /// <remarks>
@@ -56,15 +74,6 @@ namespace SpaceApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image9P;
-        
-        /// <summary>
-        /// Image9 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Image9;
         
         /// <summary>
         /// Timer9 control.

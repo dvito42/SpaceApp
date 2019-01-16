@@ -32,23 +32,17 @@
                             <br /><br />
                         </p>
                     </aside>  
-                    <!-- Set the first image of the slide show -->
+                    
                     <div class="text-center">
+                        <!-- Add previous and next buttons to allow user to choose which picture to view-->
+                        <asp:Button ID="SaturnPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                        <asp:Button ID="SaturnNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+                        <!-- Set the first image of the slide show -->
                         <asp:Image ID="Image6S" class="round-corners" runat="server" ImageUrl="Images/Saturn/PIA04913_small.jpg" />
                         <br />
-                        <!-- 
-                        <asp:ImageButton ID="Image6" runat="server" 
-                            ImageUrl="Images/Saturn/PIA04913_small.jpg" /><br />
-                     -->
 
                     </div>
-                    <!--
-                    <img src="Images/Saturn/PIA04913_small.jpg" />
-                    <img src="Images/Saturn/PIA01482_small.jpg" />
-                    <img src="Images/Saturn/PIA01966_small.jpg" />
-                    <img src="Images/Saturn/PIA06423_small.jpg" />
-                    <img src="Images/Saturn/PIA14946_small.jpg" />
-                    -->
+
                     <asp:Timer ID="Timer6" runat="server" Interval="5000" OnTick="Timer6_Tick"></asp:Timer>
                 </ContentTemplate>
             </asp:UpdatePanel>

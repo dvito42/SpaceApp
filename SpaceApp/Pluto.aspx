@@ -32,22 +32,16 @@
                             <br /><br />
                         </p>
                     </aside>     
-                    <!-- Set the first image of the slide show -->
+                   
                     <div class="text-center">
+                        <!-- Add previous and next buttons to allow user to choose which picture to view-->
+                        <asp:Button ID="PlutoPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                        <asp:Button ID="PlutoNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+                        <!-- Set the first image of the slide show -->
                         <asp:Image ID="Image9P" class="round-corners" runat="server" ImageUrl="Images/Pluto/PIA19952_small.jpg" />
-                        <!-- 
-                        <asp:ImageButton ID="Image9" runat="server" 
-                            ImageUrl="Images/Pluto/PIA19952_small.jpg" />
-                        -->
                         <br />
                     </div>
-                    <!--
-                    <img src="Images/Pluto/PIA19952_small.jpg" />
-                    <img src="Images/Pluto/PIA21965_orig.jpg" />
-                    <img src="Images/Pluto/PIA20155_small.jpg" />
-                    <img src="Images/Pluto/PIA20543_orig.jpg" />
-                    <img src="Images/Pluto/PIA20732_small.jpg" />
-                    -->
+
                     <asp:Timer ID="Timer9" runat="server" Interval="5000" OnTick="Timer9_Tick"></asp:Timer>
                 </ContentTemplate>
             </asp:UpdatePanel>

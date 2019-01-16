@@ -49,6 +49,24 @@ namespace SpaceApp {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
+        /// JupiterPrevButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button JupiterPrevButton;
+        
+        /// <summary>
+        /// JupiterNextButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button JupiterNextButton;
+        
+        /// <summary>
         /// ImageJ5 control.
         /// </summary>
         /// <remarks>
@@ -56,15 +74,6 @@ namespace SpaceApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImageJ5;
-        
-        /// <summary>
-        /// Image5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Image5;
         
         /// <summary>
         /// Timer5 control.

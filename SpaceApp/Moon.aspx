@@ -40,11 +40,13 @@
                         <a href= "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html">Link to NASA Moon Fact Sheet</a>
                     </p>
                     </aside>
-                <!-- Set the first image of the slide show -->
-                <!-- Add previous and next buttons to allow user to choose which picture to view-->
+               
                 <div>   
+                    <!-- Add previous and next buttons to allow user to choose which picture to view-->
                     <asp:Button ID="MoonPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
                     <asp:Button ID="MoonNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+
+                    <!-- Set the first image of the slide show -->
                     <asp:Image ID="Image1" class="round-corners alignCenter" runat="server" ImageUrl="Images/Moon/as11-44-6667_small.jpg" />
                     
                 </div>

@@ -1,0 +1,16 @@
+<!-- Add previous and next buttons to allow user to choose which picture to view-->
+<asp:Button ID="PlutoPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+<asp:Button ID="PlutoNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+
+// Manually register the event-handling method for the Click event of the Button control.
+PlutoPrevButton.Click += new EventHandler(this.PrevBtn_Click);
+PlutoNextButton.Click += new EventHandler(this.NextBtn_Click);
+
+//*****************************************************************************************************
+//Timer9_Tick will cycle through 5 pictures every 5 seconds
+//Label9.Text contains the number of the picture. 
+//Label9.Text needs to be numeric or the slideshow breaks.
+//*****************************************************************************************************
+
+
+Label9

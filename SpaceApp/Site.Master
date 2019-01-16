@@ -92,15 +92,15 @@
                         <li><a href="Uranus.aspx">Uranus</a></li>
                         <li><a href="Neptune.aspx">Neptune</a></li>
                         <li><a href="Pluto.aspx">Pluto</a></li>
-                        <li><a runat="server" href="~/Resume">Resume</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Resume">Resume</a></li>   
                         
                     </ul>
                 </nav>
             </div>
         </div>
-         <a class="btn download" href="Resume.pdf" download>Download PDF</a>
+         <a class="btn download" href="Resume.pdf" download>Download Resume</a>
     </header>
     <div id="body">
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />

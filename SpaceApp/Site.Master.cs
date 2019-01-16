@@ -67,7 +67,16 @@ namespace SpaceApp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            /* sample code from Stack Overflow to check url for selected page and set item.selected = true
+             * 
+             *foreach (MenuItem item in mn.Items)
+            {
+                if (Request.Url.AbsoluteUri.ToLower().Contains(Page.ResolveUrl(item.NavigateUrl.ToLower()))
+                {
+                    item.Selected = true;
+                }
+            }
+             */
         }
     }
 }

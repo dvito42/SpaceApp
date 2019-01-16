@@ -49,6 +49,24 @@ namespace SpaceApp {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
+        /// UranusPrevButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UranusPrevButton;
+        
+        /// <summary>
+        /// UranusNextButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button UranusNextButton;
+        
+        /// <summary>
         /// Image7U control.
         /// </summary>
         /// <remarks>
@@ -56,15 +74,6 @@ namespace SpaceApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image7U;
-        
-        /// <summary>
-        /// Image7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Image7;
         
         /// <summary>
         /// Timer7 control.

@@ -49,6 +49,24 @@ namespace SpaceApp {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
+        /// VenusPrevButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button VenusPrevButton;
+        
+        /// <summary>
+        /// VenusNextButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button VenusNextButton;
+        
+        /// <summary>
         /// Image4 control.
         /// </summary>
         /// <remarks>

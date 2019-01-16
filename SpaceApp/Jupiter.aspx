@@ -34,13 +34,15 @@
                             <br /><br />
                         </p>
                     </aside>
-                    <!-- Set the first image of the slide show -->
+                    
                     <div class="text-center">
+                        <!-- Add previous and next buttons to allow user to choose which picture to view-->
+                        <asp:Button ID="JupiterPrevButton" class="btn float-left margin-top25" runat="server" Text=" < Previous " />
+                        <asp:Button ID="JupiterNextButton" class="btn float-right margin-top25" runat="server" Text=" Next > " />
+
+                        <!-- Set the first image of the slide show -->
                         <asp:Image ID="ImageJ5" class="round-corners" runat="server" ImageUrl="Images/Jupiter/PIA01481_full.png"/>
-                        <!-- 
-                        <asp:ImageButton ID="Image5" runat="server" 
-                            ImageUrl="Images/Jupiter/PIA01481_full.png" />
-                            -->
+   
                         <br />
                     </div>
                    
