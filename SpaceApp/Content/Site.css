@@ -257,6 +257,31 @@ img {
 
 /* menu
 ----------------------------------------------------------*/
+
+.container {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: right;
+}
+
+    .container a {
+        display: inline;
+        list-style: none;
+        padding-left: 15px;
+        background: none;
+        color: #999;
+        text-decoration: none;
+    }
+
+
+        .container a:hover {
+            color: #333;
+            text-decoration: none;
+        }
+
+/* old menu styles - remove*/
 ul#menu {
     font-size: 1em;
     font-weight: 600;
@@ -725,6 +750,14 @@ tr.pager td {
     nav {
         margin-bottom: 5px;
     }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    /* old menu styles - not needed*/
 
     ul#menu {
         margin: 0;

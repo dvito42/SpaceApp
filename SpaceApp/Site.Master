@@ -80,23 +80,22 @@
                 </section>
                 <!-- Navigation bar: Each planet has its own page. Home is the Earth's page.
                 -->
-                <nav>
-                    <ul id="menu">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a href="Moon.aspx">Moon</a></li> 
-                        <li><a href="Mercury.aspx">Mercury</a></li>
-                        <li><a href="Venus.aspx">Venus</a></li>
-                        <li><a href="Mars.aspx">Mars</a></li>
-                        <li><a href="Jupiter.aspx">Jupiter</a></li>
-                        <li><a href="Saturn.aspx">Saturn</a></li>
-                        <li><a href="Uranus.aspx">Uranus</a></li>
-                        <li><a href="Neptune.aspx">Neptune</a></li>
-                        <li><a href="Pluto.aspx">Pluto</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/Resume">Resume</a></li>   
-                        
-                    </ul>
+                <nav class="page-nav">
+                    <div class="container">
+                        <a runat="server" href="~/">Home</a>
+                        <a href="Moon.aspx">Moon</a> 
+                        <a href="Mercury.aspx">Mercury</a>
+                        <a href="Venus.aspx">Venus</a>
+                        <a href="Mars.aspx">Mars</a>
+                        <a href="Jupiter.aspx">Jupiter</a>
+                        <a href="Saturn.aspx">Saturn</a>
+                        <a href="Uranus.aspx">Uranus</a>
+                        <a href="Neptune.aspx">Neptune</a>
+                        <a href="Pluto.aspx">Pluto</a>
+                        <a runat="server" href="~/About">About</a>
+                        <a runat="server" href="~/Contact">Contact</a>
+                        <a runat="server" href="~/Resume">Resume</a>   
+                    </div>
                 </nav>
             </div>
         </div>
